@@ -49,10 +49,10 @@ $tweaks = @(
 	"askXBOX",
 	"Windows11Extra",
 	#"askMSPPS",                      #Option to enable or disable Microsoft Software Protection Platform Service” Causing High CPU Usage
-	#"askMSWSAPPX",                   #Option to enable or disable Wsappx to Fix 100% Disk Usage in Windows 10 in older systems
+	"askMSWSAPPX",                   #Option to enable or disable Wsappx to Fix 100% Disk Usage in Windows 10 in older systems
 
 	### Windows Apps
-	"DebloatAll",
+	#"DebloatAll",
 
 	### Privacy Tweaks ###
 	"DisableTelemetry",             # "EnableTelemetry",
@@ -149,8 +149,8 @@ $tweaks = @(
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
 	#"HideTrayIcons",                #"ShowTrayIcons",
-	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
+	"EnableSearchAppInStore",      # "DisableSearchAppInStore",
+	"EnableNewAppPrompt",          # "DisableNewAppPrompt",
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	"SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
